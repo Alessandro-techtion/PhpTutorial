@@ -1,0 +1,50 @@
+/* Stile generale della form */
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: column;
+  padding-left: 750px;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  /* Stile dei label */
+  label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Stile degli input */
+  input[type="text"],
+  input[type="email"],
+  input[type="file"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Stile del bottone di submit */
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: rgb(65, 226, 50);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Stile degli errori della form */
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  

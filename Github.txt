@@ -2,4 +2,4 @@ Comandi GitHub
 
 git add * : aggiunge alla repositery virtuale
 git commit -m "messaggio": salva il salvataggio, il messaggio è una breve discrezione della modificia
-git push origin master: carica i file aggiornati nel nostro reposity.
+git push origin main: carica i file aggiornati nel nostro reposity.

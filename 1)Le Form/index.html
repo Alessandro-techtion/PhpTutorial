@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Esempio di una form</h1>
+    <form action="./php/esempio.php" method="POST">
+        <!--
+            action è la pagina di riferimento a cui ci rivolgiamo per gestire i dati che inviamo
+            Il metodo con cui saranno mandati è POST, così da renderli nascosti
+        -->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Inserire Nome">
+        <label for="cognome">Cognome</label>
+        <input type="text" name="cognome" id="cognome" placeholder="Inserire cognome">
+        <input type="submit" value="Invia i dati">
+
+    </form>
+</body>
+</html>

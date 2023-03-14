@@ -1,0 +1,109 @@
+Un web server è un computer situato da qualche parte nel mondo
+sul quale ci andiamo ad installare Apache, Apache è un server web
+Altri tipi di server web possono essere APS.net,tomcat, NodeJS.
+
+Nel caso di Apache noi possiamo andare ad installarci Php che è un linguaggio di
+programmazione lato server
+
+Come andrà a fare il server
+-Gestione delle ricezione richieste ed elaborazioni delle risposte
+
+
+Un server è un computer o un programma che fornisce servizi o risorse ad altri computer o dispositivi connessi a una rete. 
+Il server è progettato per gestire richieste da parte dei client, ovvero di altri dispositivi connessi 
+alla rete, e fornire loro i dati, i servizi o le risorse richieste.
+
+Il tipo di servizi che un server può gestire dipende dal suo scopo e dalla sua configurazione. 
+Ad esempio, un server Web gestisce le richieste HTTP per visualizzare pagine Web, un server di posta 
+elettronica gestisce la consegna delle email, un server di database gestisce la memorizzazione e l'accesso ai dati, e così via.
+
+In generale, i server devono gestire molteplici attività, tra cui:
+
+Ricevere e elaborare richieste da parte dei client.
+Fornire i dati, i servizi o le risorse richieste ai client.
+Monitorare le attività del server e la sua efficienza per garantire un funzionamento ottimale.
+Gestire gli accessi e le autorizzazioni dei client per le risorse a cui hanno accesso.
+Mantenere la sicurezza del server e proteggere i dati e le informazioni sensibili.
+Aggiornare e manutenere il software e l'hardware del server per garantire che sia sempre funzionale e affidabile.
+In generale, i server svolgono un ruolo fondamentale nell'infrastruttura informatica, consentendo 
+la condivisione di dati e risorse tra dispositivi connessi alla rete e facilitando l'accesso a servizi online.
+
+
+
+            TIPI DI RICHIESTE
+
+Esistono diversi tipi di richieste che i client possono inviare ai server, a seconda del servizio o della risorsa richiesta. 
+Alcuni esempi di richieste comuni includono:
+
+Richieste HTTP: sono richieste utilizzate dal protocollo HTTP (Hypertext Transfer Protocol) per richiedere pagine web e risorse ad un server web. 
+Queste richieste includono ad esempio richieste di file HTML, immagini, file CSS o JavaScript, e così via.
+
+Richieste di posta elettronica: sono richieste utilizzate dai client di posta elettronica per richiedere l'accesso a messaggi di posta elettronica dal server di posta elettronica.
+
+Richieste di connessione: sono richieste utilizzate per stabilire una connessione tra un client e un server. 
+Ad esempio, i client possono inviare una richiesta di connessione al server FTP (File Transfer Protocol) per accedere a file su un server remoto.
+
+Richieste di database: sono richieste utilizzate per accedere e gestire i dati in un database. 
+Ad esempio, un'applicazione può inviare una richiesta al server di database per recuperare i dati di un utente o aggiornare le informazioni del database.
+
+Richieste di servizi di rete: sono richieste utilizzate per accedere a servizi di rete come la condivisione di file, 
+l'accesso remoto a desktop e l'accesso remoto a dispositivi di rete.
+
+
+
+Le richieste HTTP GET e POST sono due dei metodi più comuni utilizzati dai client per inviare richieste ai server Web.
+
+La richiesta HTTP GET viene utilizzata per richiedere una risorsa specifica (come una pagina Web o un file) dal server Web. 
+La richiesta GET include l'URL della risorsa richiesta e i parametri associati, separati dal carattere "?". 
+I parametri possono essere utilizzati per specificare le opzioni della richiesta o i dati da inviare al server. 
+La richiesta GET non include un corpo di messaggio e non modifica lo stato del server.
+
+
+La richiesta HTTP POST, invece, viene utilizzata per inviare dati dal client al server, 
+ad esempio quando viene inviato un modulo da un'interfaccia utente. La richiesta POST include un corpo di messaggio che contiene 
+i dati da inviare al server. I dati sono inviati in modo nascosto e non vengono visualizzati nell'URL. 
+La richiesta POST può modificare lo stato del server.
+
+
+In generale, la richiesta GET viene utilizzata quando si vuole ottenere una risorsa dal server, 
+mentre la richiesta POST viene utilizzata quando si vuole inviare dati al server o modificare lo stato del server.
+
+È importante notare che le richieste GET e POST possono essere utilizzate anche per scopi diversi da quelli sopra descritti, 
+in base alle esigenze specifiche del progetto o dell'applicazione.
+
+
+
+
+Il server è un computer o un programma che fornisce servizi o risorse ad altri dispositivi connessi in rete, 
+come client o altri server. In generale, i server svolgono un ruolo fondamentale nell'infrastruttura informatica, 
+consentendo la condivisione di dati e risorse tra dispositivi connessi alla rete e facilitando l'accesso a servizi online.
+
+Ecco alcuni degli scopi per cui un server può essere utilizzato:
+
+Fornire servizi Web: i server Web forniscono servizi come l'accesso a pagine Web, 
+la gestione dei contenuti Web, la gestione delle email e la messaggistica istantanea.
+
+Fornire servizi di posta elettronica: i server di posta elettronica gestiscono la consegna delle email, 
+la gestione delle caselle di posta elettronica e la gestione dei filtri di spam.
+
+Fornire servizi di database: i server di database consentono la gestione dei dati, 
+la memorizzazione dei dati e la condivisione dei dati tra diversi dispositivi.
+
+Fornire servizi di file sharing: i server di file sharing consentono agli utenti di accedere ai file 
+da diversi dispositivi e di condividere i file tra gli utenti.
+
+Fornire servizi di backup e archiviazione: i server di backup e archiviazione consentono di archiviare 
+e proteggere i dati importanti, fornendo inoltre un modo per recuperare i dati in caso di perdita.
+
+Fornire servizi di gioco online: i server di gioco online consentono a più giocatori di 
+connettersi e giocare insieme in tempo reale.
+
+In generale, i server svolgono un ruolo fondamentale nella fornitura di servizi e 
+risorse online e nella gestione dei dati. La scelta del tipo di server dipende dalle esigenze specifiche dell'applicazione o del progetto.
+
+
+
+
+
+I SITI WEB VANNO FATTI SU SERVER LINUX NO! WINDOWS  
+(Centos)
